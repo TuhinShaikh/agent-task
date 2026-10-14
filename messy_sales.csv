@@ -1,0 +1,57 @@
+order_id,customer_name,email,order_date,product,category,quantity,unit_price,country
+1036,Amira Khan,amira.khan@example.com,08/03/2026,Headphones,Electronics,2,59.5,United Kingdom
+1021,Grace Liu,grace.liu@example.com,04-07-2026,Pen Pack,Stationery,1,£5.00,United Kingdom
+1009,Jack Turner,,03-02-2026,Laptop,Electronics,3,899.99,United Kingdom
+1001, LIAM WALSH ,liam.walsh@example.com,2026-04-12,Desk Lamp,Home & Garden,2,24.0,United Kingdom
+1031,Chloe Evans,chloe.evans@example.com,19/03/2026,Headphones,electronics,2,59.5,United Kingdom
+1014,Amira Khan,amira.khan@example.com,2026-03-13,Plant Pot,Home & Garden,5,12.5 GBP,United Kingdom
+1019,  Jack Turner,jack.turner@example.com,24/04/2026,Headphones,Electronics,5,59.5,United Kingdom
+1035,Kayla Singh,kayla.singh@example.com,16/04/2026,Backpack,Accessories,4,45.0,United Kingdom
+1041,Liam Walsh,liam.walshexample.com,2026-04-29,USB Cable,Electronics,1,7.99,United Kingdom
+1006,Liam Walsh,liam.walsh@example.com,2026-04-12,Laptop,Electronics,2,899.99,United Kingdom
+1040,Liam Walsh,liam.walsh@example.com,02/04/2026,Headphones,Electronics,1,59.5,United Kingdom
+1011,Amira Khan,amira.khan@example.com,30/03/2026,Laptop,Electronics,5,899.99,United Kingdom
+1045,Kayla Singh,kayla.singh@example.com,2026-03-16,Pen Pack,stationary,1,£5.00,United Kingdom
+1038,Chloe Evans,chloe.evans@example.com,2026-04-02,Water Bottle,Accessories,4,15.99,United Kingdom
+1026,Grace Liu,grace.liu@example.com,03/03/2026,Laptop,ELECTRONICS,2,899.99,United Kingdom
+1002,Grace Liu,grace.liu@example.com,2026-04-04,Water Bottle,Accessories,1,£15.99,United Kingdom
+1024,Femi Adeyemi,femi.adeyemi@example.com,19 Apr 2026,Water Bottle,Accessories,4,15.99,U.K.
+1017,Chloe Evans,chloe.evans@example.com,05/04/2026,Backpack,Accessories,1,45.0,United Kingdom
+1006,Liam Walsh,liam.walsh@example.com,2026-04-12,Laptop,Electronics,2,899.99,United Kingdom
+1049,  Amira Khan,amira.khan@example.com,04-13-2026,Water Bottle,accessories,5,£15.99,United Kingdom
+1046,Isla Murray,isla.murray@example.com,07 Mar 2026,Headphones,Electronics,1,£59.50,United Kingdom
+1010,Isla Murray,isla.murray@example.com,2026-03-08,Backpack,Accessories,5,45.0,U.K.
+1034,Ella Brown,ella.brown@example.com,2026-04-22,Pen Pack,Stationery,3,5.0,United Kingdom
+1032,Ben Carter,,08 Apr 2026,Headphones,Electrnics,,59.5,United Kingdom
+1008,Different Person,hassan.ali@example.com,03-24-2026,Notebook,stationary,9,3.25,United Kingdom
+1025,Femi Adeyemi,femi.adeyemi@example.com,03-31-2026,Backpack,Accessories,5,45.0,United Kingdom
+1020,Femi Adeyemi,femi.adeyemi@example.com,2026-03-27,Headphones,Electronics,1,59.5,United Kingdom
+1018,Amira Khan,amira.khan@example.com,14/03/2026,Notebook,Stationery,3,3.25,United kingdom
+1004,  Isla Murray,,10/04/2026,USB Cable,Electronics,4,7.99,United Kingdom
+1022,Amira Khan,amira.khan@example.com,07 Mar 2026,Garden Hose,Home & Garden,2,34.99,United Kingdom
+1014,Amira Khan,amira.khan@example.com,2026-03-13,Plant Pot,Home & Garden,5,12.5 GBP,United Kingdom
+1047,Dev Patel,dev.patel@example.com,18/04/2026,Desk Lamp,Home & Garden,1,24.0,United Kingdom
+1050,Chloe Evans,chloe.evans@example.com,30/04/2026,USB Cable,Electrnics,5,7.99,United Kingdom
+1033,amira khan,amira.khanexample.com,04/04/2026,Notebook,Stationery,1,89999.00,United Kingdom
+1028,Jack Turner,jack.turner@example.com,03/03/2026,Pen Pack,Stationery,5,5.0,United Kingdom
+1029,Chloe Evans,chloe.evans@example.com,03/03/2026,Water Bottle,Accessories,-2,15.99,United Kingdom
+1027,Jack Turner,jack.turner@example.com,03/04/2026,Laptop,Electronics,1,899.99,United Kingdom
+1031,Chloe Evans,chloe.evans@example.com,19/03/2026,Headphones,electronics,2,59.5,United Kingdom
+1023,Ben Carter,ben.carter@example.com,13/04/2026,USB Cable,ELECTRONICS,3,7.99,United Kingdom
+1012,Kayla Singh,kayla.singh@example.com,2026-03-21,Backpack,Accessories,3,45.0,United Kingdom
+1008,Hassan Ali,hassan.ali@example.com,03-24-2026,Notebook,stationary,2,3.25,United Kingdom
+1030,Grace Liu,grace.liu@example.com,03-19-2026,Laptop,Electronics,4,899.99 GBP,United kingdom
+1011,Amira Khan,amira.khan@example.com,30/03/2026,Laptop,Electronics,5,899.99,United Kingdom
+1016,Chloe Evans,chloe.evans@example.com,2026-03-07,Laptop,Electronics,0,899.99,United Kingdom
+1042,Amira Khan,amira.khan@example.com,26 Mar 2026,USB Cable,ELECTRONICS,2,7.99,United Kingdom
+1044,Femi Adeyemi,femi.adeyemi@example.com,2026-03-31,Notebook,Stationery,2,3.25,United Kingdom
+1018,Amira Khan,amira.khan@example.com,14/03/2026,Notebook,Stationery,3,3.25,United kingdom
+1007, CHLOE EVANS ,chloe.evans@example.com,14/03/2026,USB Cable,Electronics,-2,7.99,United Kingdom
+1003,Chloe Evans,chloe.evans@example.com,03/03/2026,Pen Pack,Stationery,5,5.0,United Kingdom
+1013,Kayla Singh,kayla.singh@example.com,2026-03-28,Notebook,Stationery,2,3.25,United Kingdom
+1043,Femi Adeyemi,femi.adeyemiexample.com,13/03/2026,Headphones,Electronics,3,59.5,United Kingdom
+1048,  Chloe Evans,chloe.evans@example.com,16 Apr 2026,Backpack,Accessories,three,45.0,United Kingdom
+1037,Hassan Ali,hassan.ali@example.com,2026-03-20,Desk Lamp,Home & Garden,2,24.0,United Kingdom
+1015,Grace Liu,grace.liu@example.com,08 Apr 2026,Notebook,Stationery,5,3.25,uk
+1039, GRACE LIU ,grace.liu@example.com,21 Apr 2026,Water Bottle,Accessories,3,£15.99,United Kingdom
+1005,Dev Patel,dev.patel@example.com,15 Apr 2026,Notebook,Stationery,2,3.25,UK
