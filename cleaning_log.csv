@@ -1,0 +1,96 @@
+record_type,source_row,order_id,column,original_value,cleaned_value,action,reason,confidence
+change,2,1036,order_date,08/03/2026,2026-03-08,normalise,Converted recognised date format to ISO 8601.,high
+change,2,1036,unit_price,59.5,59.50,normalise,Removed currency markers and standardised to two decimal places.,high
+change,3,1021,order_date,04-07-2026,2026-04-07,normalise,"Parsed as month-day-year because the export contains 03-24-2026, which cannot be day-month-year; converted to ISO 8601.",high
+change,3,1021,unit_price,£5.00,5.00,normalise,Removed currency markers and standardised to two decimal places.,high
+change,4,1009,email,,,flag,Email is missing; retained row but left email blank.,high
+change,4,1009,order_date,03-02-2026,2026-03-02,normalise,"Parsed as month-day-year because the export contains 03-24-2026, which cannot be day-month-year; converted to ISO 8601.",high
+change,5,1001,customer_name, LIAM WALSH ,Liam Walsh,normalise,Trimmed excess whitespace and standardised name casing.,high
+change,5,1001,unit_price,24.0,24.00,normalise,Removed currency markers and standardised to two decimal places.,high
+change,6,1031,order_date,19/03/2026,2026-03-19,normalise,Converted recognised date format to ISO 8601.,high
+change,6,1031,category,electronics,Electronics,normalise,Standardised known category spelling and casing.,high
+change,6,1031,unit_price,59.5,59.50,normalise,Removed currency markers and standardised to two decimal places.,high
+change,7,1014,unit_price,12.5 GBP,12.50,normalise,Removed currency markers and standardised to two decimal places.,high
+change,8,1019,customer_name,  Jack Turner,Jack Turner,normalise,Trimmed excess whitespace and standardised name casing.,high
+change,8,1019,order_date,24/04/2026,2026-04-24,normalise,Converted recognised date format to ISO 8601.,high
+change,8,1019,unit_price,59.5,59.50,normalise,Removed currency markers and standardised to two decimal places.,high
+change,9,1035,order_date,16/04/2026,2026-04-16,normalise,Converted recognised date format to ISO 8601.,high
+change,9,1035,unit_price,45.0,45.00,normalise,Removed currency markers and standardised to two decimal places.,high
+change,10,1041,email,liam.walshexample.com,,flag,Email is malformed; blanked in cleaned output rather than guessing a correction.,high
+change,12,1040,order_date,02/04/2026,2026-04-02,normalise,Converted recognised date format to ISO 8601.,high
+change,12,1040,unit_price,59.5,59.50,normalise,Removed currency markers and standardised to two decimal places.,high
+change,13,1011,order_date,30/03/2026,2026-03-30,normalise,Converted recognised date format to ISO 8601.,high
+change,14,1045,category,stationary,Stationery,normalise,Standardised known category spelling and casing.,high
+change,14,1045,unit_price,£5.00,5.00,normalise,Removed currency markers and standardised to two decimal places.,high
+change,16,1026,order_date,03/03/2026,2026-03-03,normalise,Converted recognised date format to ISO 8601.,high
+change,16,1026,category,ELECTRONICS,Electronics,normalise,Standardised known category spelling and casing.,high
+change,17,1002,unit_price,£15.99,15.99,normalise,Removed currency markers and standardised to two decimal places.,high
+change,18,1024,order_date,19 Apr 2026,2026-04-19,normalise,Converted recognised date format to ISO 8601.,high
+change,18,1024,country,U.K.,United Kingdom,normalise,Standardised known United Kingdom variants.,high
+change,19,1017,order_date,05/04/2026,2026-04-05,normalise,Converted recognised date format to ISO 8601.,high
+change,19,1017,unit_price,45.0,45.00,normalise,Removed currency markers and standardised to two decimal places.,high
+deletion,20,1006,,,,delete,Later copy of an exact duplicate export row.,high
+change,21,1049,customer_name,  Amira Khan,Amira Khan,normalise,Trimmed excess whitespace and standardised name casing.,high
+change,21,1049,order_date,04-13-2026,2026-04-13,normalise,"Parsed as month-day-year because the export contains 03-24-2026, which cannot be day-month-year; converted to ISO 8601.",high
+change,21,1049,category,accessories,Accessories,normalise,Standardised known category spelling and casing.,high
+change,21,1049,unit_price,£15.99,15.99,normalise,Removed currency markers and standardised to two decimal places.,high
+change,22,1046,order_date,07 Mar 2026,2026-03-07,normalise,Converted recognised date format to ISO 8601.,high
+change,22,1046,unit_price,£59.50,59.50,normalise,Removed currency markers and standardised to two decimal places.,high
+change,23,1010,country,U.K.,United Kingdom,normalise,Standardised known United Kingdom variants.,high
+change,23,1010,unit_price,45.0,45.00,normalise,Removed currency markers and standardised to two decimal places.,high
+change,24,1034,unit_price,5.0,5.00,normalise,Removed currency markers and standardised to two decimal places.,high
+deletion,25,1032,quantity,,,delete,"Quantity is missing, nonnumeric, zero, or negative; sales total cannot be computed reliably.",high
+change,26,1008,order_date,03-24-2026,2026-03-24,normalise,"Parsed as month-day-year because the export contains 03-24-2026, which cannot be day-month-year; converted to ISO 8601.",high
+change,26,1008,category,stationary,Stationery,normalise,Standardised known category spelling and casing.,high
+change,26,1008,customer_name,Different Person,Hassan Ali,correct,Customer name conflicts with the matching Hassan Ali email; corrected from the stronger identifier.,medium
+change,27,1025,order_date,03-31-2026,2026-03-31,normalise,"Parsed as month-day-year because the export contains 03-24-2026, which cannot be day-month-year; converted to ISO 8601.",high
+change,27,1025,unit_price,45.0,45.00,normalise,Removed currency markers and standardised to two decimal places.,high
+change,28,1020,unit_price,59.5,59.50,normalise,Removed currency markers and standardised to two decimal places.,high
+change,29,1018,order_date,14/03/2026,2026-03-14,normalise,Converted recognised date format to ISO 8601.,high
+change,29,1018,country,United kingdom,United Kingdom,normalise,Standardised known United Kingdom variants.,high
+change,30,1004,customer_name,  Isla Murray,Isla Murray,normalise,Trimmed excess whitespace and standardised name casing.,high
+change,30,1004,email,,,flag,Email is missing; retained row but left email blank.,high
+change,30,1004,order_date,10/04/2026,2026-04-10,normalise,Converted recognised date format to ISO 8601.,high
+change,31,1022,order_date,07 Mar 2026,2026-03-07,normalise,Converted recognised date format to ISO 8601.,high
+deletion,32,1014,,,,delete,Later copy of an exact duplicate export row.,high
+change,33,1047,order_date,18/04/2026,2026-04-18,normalise,Converted recognised date format to ISO 8601.,high
+change,33,1047,unit_price,24.0,24.00,normalise,Removed currency markers and standardised to two decimal places.,high
+change,34,1050,order_date,30/04/2026,2026-04-30,normalise,Converted recognised date format to ISO 8601.,high
+change,34,1050,category,Electrnics,Electronics,normalise,Standardised known category spelling and casing.,high
+change,35,1033,customer_name,amira khan,Amira Khan,normalise,Trimmed excess whitespace and standardised name casing.,high
+change,35,1033,email,amira.khanexample.com,,flag,Email is malformed; blanked in cleaned output rather than guessing a correction.,high
+change,35,1033,order_date,04/04/2026,2026-04-04,normalise,Converted recognised date format to ISO 8601.,high
+change,35,1033,unit_price,89999.00,89999.00,flag,Price is an extreme outlier for this product and was not safely inferable; retained unchanged.,high
+change,36,1028,order_date,03/03/2026,2026-03-03,normalise,Converted recognised date format to ISO 8601.,high
+change,36,1028,unit_price,5.0,5.00,normalise,Removed currency markers and standardised to two decimal places.,high
+deletion,37,1029,quantity,-2,,delete,"Quantity is missing, nonnumeric, zero, or negative; sales total cannot be computed reliably.",high
+change,38,1027,order_date,03/04/2026,2026-04-03,normalise,Converted recognised date format to ISO 8601.,high
+deletion,39,1031,,,,delete,Later copy of an exact duplicate export row.,high
+change,40,1023,order_date,13/04/2026,2026-04-13,normalise,Converted recognised date format to ISO 8601.,high
+change,40,1023,category,ELECTRONICS,Electronics,normalise,Standardised known category spelling and casing.,high
+change,41,1012,unit_price,45.0,45.00,normalise,Removed currency markers and standardised to two decimal places.,high
+change,42,1008,order_date,03-24-2026,2026-03-24,normalise,"Parsed as month-day-year because the export contains 03-24-2026, which cannot be day-month-year; converted to ISO 8601.",high
+change,42,1008,category,stationary,Stationery,normalise,Standardised known category spelling and casing.,high
+change,43,1030,order_date,03-19-2026,2026-03-19,normalise,"Parsed as month-day-year because the export contains 03-24-2026, which cannot be day-month-year; converted to ISO 8601.",high
+change,43,1030,country,United kingdom,United Kingdom,normalise,Standardised known United Kingdom variants.,high
+change,43,1030,unit_price,899.99 GBP,899.99,normalise,Removed currency markers and standardised to two decimal places.,high
+deletion,44,1011,,,,delete,Later copy of an exact duplicate export row.,high
+deletion,45,1016,quantity,0,,delete,"Quantity is missing, nonnumeric, zero, or negative; sales total cannot be computed reliably.",high
+change,46,1042,order_date,26 Mar 2026,2026-03-26,normalise,Converted recognised date format to ISO 8601.,high
+change,46,1042,category,ELECTRONICS,Electronics,normalise,Standardised known category spelling and casing.,high
+deletion,48,1018,,,,delete,Later copy of an exact duplicate export row.,high
+deletion,49,1007,quantity,-2,,delete,"Quantity is missing, nonnumeric, zero, or negative; sales total cannot be computed reliably.",high
+change,50,1003,order_date,03/03/2026,2026-03-03,normalise,Converted recognised date format to ISO 8601.,high
+change,50,1003,unit_price,5.0,5.00,normalise,Removed currency markers and standardised to two decimal places.,high
+change,52,1043,email,femi.adeyemiexample.com,,flag,Email is malformed; blanked in cleaned output rather than guessing a correction.,high
+change,52,1043,order_date,13/03/2026,2026-03-13,normalise,Converted recognised date format to ISO 8601.,high
+change,52,1043,unit_price,59.5,59.50,normalise,Removed currency markers and standardised to two decimal places.,high
+deletion,53,1048,quantity,three,,delete,"Quantity is missing, nonnumeric, zero, or negative; sales total cannot be computed reliably.",high
+change,54,1037,unit_price,24.0,24.00,normalise,Removed currency markers and standardised to two decimal places.,high
+change,55,1015,order_date,08 Apr 2026,2026-04-08,normalise,Converted recognised date format to ISO 8601.,high
+change,55,1015,country,uk,United Kingdom,normalise,Standardised known United Kingdom variants.,high
+change,56,1039,customer_name, GRACE LIU ,Grace Liu,normalise,Trimmed excess whitespace and standardised name casing.,high
+change,56,1039,order_date,21 Apr 2026,2026-04-21,normalise,Converted recognised date format to ISO 8601.,high
+change,56,1039,unit_price,£15.99,15.99,normalise,Removed currency markers and standardised to two decimal places.,high
+change,57,1005,order_date,15 Apr 2026,2026-04-15,normalise,Converted recognised date format to ISO 8601.,high
+change,57,1005,country,UK,United Kingdom,normalise,Standardised known United Kingdom variants.,high
